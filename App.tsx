@@ -16,7 +16,7 @@ export default function App() {
            RegNo,
            Password,
          });
-         setToken(response.data.access_token);
+         setToken(response.data.data.access_token);
        } catch (error) {
          console.warn(error);
        }
